@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>私のポートフォリオウェブページ</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+   <div class="notification-bar">
+
+       <div>
+    <a href="/index.html">
+                <button>ENGLISH</button>
+              </a>
+              
+ </div>
+            <div>
+            <ul>
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#about">自己紹介</a></li>
+                <li><a href="#skills">スキル</a></li>
+                <li><a href="#portfolio">プロジェクト</a></li>
+                <li><a href="#service">サービス</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+
+            </div>
+</div>
+</div> 
+
+ <section id="home">
+        <div class="container">
+            <div class="infos">
+                <h6 class="subtitle">こんにちは、私は</h6>
+                <h6 class="title">カルム・パラサンナ</h6>
+                <p>フルスタック開発者</p>
+
+                <div class="buttons pt-3">
+                    <button class="btn btn-primary rounded"> 採用してください</button>
+                    <a href="/my-cv (4).pdf" download class="btn btn-dark rounded">履歴書をダウンロード</a>                
+                </div>      
+
+                
+            <div class="img-holder">
+                <img src="/homepicture.jpeg" alt="">
+            </div>      
+        </div>  
+
+        
+      </section>
+
+  <section id="about">
+    <h2>自己紹介</h2>
+    <div class="container mt-5">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3">
+                    <img src="/my photo.jpg" alt="Project Screenshot" width="300" height="300" />
+
+                </div>
+                <div class="pl-md-4 col-md-9">
+                    <h6 class="title">カルム・パラサンナ</h6>
+                    <p class="subtitle">フルスタック開発者</p>
+                    <p>あなたのウェブプロジェクトを実現する多才で熟練したフルスタック開発者をお探しですか？もう探す必要はありません！フロントエンドとバックエンドの両方に精通しており、あなたのニーズに合わせた包括的なソリューションを提供します。</p>
+
+                    <a href="/my-cv (4).pdf" download class="btn btn-primary rounded mt-3">履歴書をダウンロード</a>                  
+                </div>
+            </div>
+        </div>
+  </section>
+
+ 
+ 
+  
+
+  
+<section id="skills">
+    <h2>スキル</h2>
+    <ul class="skills-list">
+      <li>HTML(エイチティーエムエル)</li>
+      <li>CSS(シーエスエス)</li>
+      <li>JavaScript(ジャバスクリプト)</li>
+      <li>React(リアクト)</li>
+      <li>Node.js(ノード・ジェイエス)</li>
+    </ul>
+</section>
+
+
+ <section id="portfolio">
+    <h2>私のプロジェクト</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>プロジェクト 1</h3>
+        <p>プロジェクトの説明がここに入ります。</p>
+      </div>
+      <div class="project-card">
+        <h3>プロジェクト 2</h3>
+        <p>プロジェクトの説明がここに入ります。</p>
+      </div>
+    </div>
+</section>
+
+
+  <section id="service">
+    <div>
+        <h6>サービス</h6>
+        <h6>私の仕事</h6>
+        <p>サービス内容：</p>
+        <ol>
+            <li>バックエンド開発:Node.js、Express、Django、Ruby on Rails を使用して、堅牢でスケーラブルなサーバーサイドアプリケーションを構築します。</li>
+            <li>データベース管理:MySQL、PostgreSQL、MongoDB などのデータベースを設計・管理します。</li>
+            <li>API 開発:RESTful および GraphQL API を作成・統合し、アプリケーション間のシームレスな通信を実現します。</li>
+            <li>レスポンシブデザイン：すべてのデバイス（デスクトップからスマートフォンまで）で美しく機能するウェブサイトを構築します。</li>
+            <li>EC ソリューション：安全で効率的な E コマースプラットフォームを開発し、製品やサービスのオンライン販売を支援します。</li>
+            <li>保守・サポート：ウェブサイトを常にスムーズかつ最新の状態に保つための継続的なサポートと保守を提供します。</li>
+            <li>フロントエンド開発:HTML、CSS、JavaScript、および React、Angular、Vue.js などの最新フレームワークを使用して、視覚的に魅力的でユーザーフレンドリーなインターフェースを作成します。</li>
+        </ol>
+    </div>
+</section>
+
+    
+
+  <section id="contact">
+    <h2>お問い合わせ</h2>
+    <form
+  action="https://formspree.io/f/xeogvojk"
+  method="POST"
+>
+  <label>
+    お名前：
+    <textarea name="name"></textarea>
+  </label>
+  <label>
+    電話番号：
+    <input type="tel" name="phone">
+  </label>
+<label>
+    メールアドレス：:
+    <input type="email" name="email">
+  </label>
+  <label>
+    メッセージ：
+    <textarea name="message"></textarea>
+  </label>
+  
+  <!-- your other form fields go here -->
+  <button type="submit">送信</button>
+</form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kelum Prasanna. 全著作権所有。</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
